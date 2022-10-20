@@ -1,0 +1,90 @@
+﻿  book.cpp
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(13,18): error C2061: syntax error: identifier 'Author'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(15,10): error C3646: 'get_Chapter': unknown override specifier
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(15,21): error C2059: syntax error: '('
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(15,30): error C2238: unexpected token(s) preceding ';'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(20,8): error C2065: 'Chapter': undeclared identifier
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(20,2): error C2923: 'std::list': 'Chapter' is not a valid template type argument for parameter '_Ty'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(20): message : see declaration of 'Chapter'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(20,2): error C2976: 'std::list': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\list(754): message : see declaration of 'std::list'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(14,13): error C3646: 'get_SubChapter': unknown override specifier
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(14,27): error C2059: syntax error: '('
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(14,36): error C2238: unexpected token(s) preceding ';'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(18,8): error C2065: 'SubChapter': undeclared identifier
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(18,2): error C2923: 'std::list': 'SubChapter' is not a valid template type argument for parameter '_Ty'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(18): message : see declaration of 'SubChapter'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(18,2): error C2976: 'std::list': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\list(754): message : see declaration of 'std::list'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.cpp(6,1): error C2512: 'std::list': no appropriate default constructor available
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\list(754,1): message : see declaration of 'std::list'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.cpp(9,12): error C2511: 'void Book::add_Author(Author &)': overloaded member function not found in 'Book'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(9): message : see declaration of 'Book'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.cpp(11,2): error C2671: 'Book::add_Author': static member functions do not have 'this' pointers
+C:\Users\mihai\source\repos\MyBook\MyBook\book.cpp(16,34): error C2663: 'std::list<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\mihai\source\repos\MyBook\MyBook\book.cpp(17,29): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::list<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::list' to 'const std::list<_Ty,_Alloc> &'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.cpp(17,29): message : Reason: cannot convert from 'std::list' to 'const std::list<_Ty,_Alloc>'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.cpp(17,9): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\list(1173,26): message : see declaration of 'std::list<_Ty,_Alloc>::size'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.cpp(19,15): error C2039: 'get_Chapter': is not a member of 'Book'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(9): message : see declaration of 'Book'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.cpp(21,12): error C2065: 'listOfChapters': undeclared identifier
+C:\Users\mihai\source\repos\MyBook\MyBook\book.cpp(22,12): error C3536: 'it': cannot be used before it is initialized
+C:\Users\mihai\source\repos\MyBook\MyBook\book.cpp(23,9): error C2100: illegal indirection
+C:\Users\mihai\source\repos\MyBook\MyBook\book.cpp(33,2): error C2663: 'std::list<_Ty,_Alloc>::begin': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\mihai\source\repos\MyBook\MyBook\book.cpp(33,44): error C3536: 'it': cannot be used before it is initialized
+C:\Users\mihai\source\repos\MyBook\MyBook\book.cpp(33,66): error C2663: 'std::list<_Ty,_Alloc>::end': 2 overloads have no legal conversion for 'this' pointer
+  chapter.cpp
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(14,13): error C3646: 'get_SubChapter': unknown override specifier
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(14,27): error C2059: syntax error: '('
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(14,36): error C2238: unexpected token(s) preceding ';'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(18,8): error C2065: 'SubChapter': undeclared identifier
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(18,2): error C2923: 'std::list': 'SubChapter' is not a valid template type argument for parameter '_Ty'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(18): message : see declaration of 'SubChapter'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(18,2): error C2976: 'std::list': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\list(754): message : see declaration of 'std::list'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.cpp(5,1): error C2512: 'std::list': no appropriate default constructor available
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\list(754,1): message : see declaration of 'std::list'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.cpp(11,40): error C2663: 'std::list<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.cpp(12,32): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::list<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::list' to 'const std::list<_Ty,_Alloc> &'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.cpp(12,32): message : Reason: cannot convert from 'std::list' to 'const std::list<_Ty,_Alloc>'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.cpp(12,9): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\list(1173,26): message : see declaration of 'std::list<_Ty,_Alloc>::size'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.cpp(14,21): error C2039: 'get_SubChapter': is not a member of 'Chapter'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(9): message : see declaration of 'Chapter'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.cpp(16,12): error C2065: 'listOfSubChapters': undeclared identifier
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.cpp(17,12): error C3536: 'it': cannot be used before it is initialized
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.cpp(18,9): error C2100: illegal indirection
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.cpp(24,2): error C2663: 'std::list<_Ty,_Alloc>::begin': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.cpp(24,47): error C3536: 'it': cannot be used before it is initialized
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.cpp(24,72): error C2663: 'std::list<_Ty,_Alloc>::end': 2 overloads have no legal conversion for 'this' pointer
+  MyBook.cpp
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(13,18): error C2061: syntax error: identifier 'Author'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(15,10): error C3646: 'get_Chapter': unknown override specifier
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(15,21): error C2059: syntax error: '('
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(15,30): error C2238: unexpected token(s) preceding ';'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(20,8): error C2065: 'Chapter': undeclared identifier
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(20,2): error C2923: 'std::list': 'Chapter' is not a valid template type argument for parameter '_Ty'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(20): message : see declaration of 'Chapter'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(20,2): error C2976: 'std::list': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\list(754): message : see declaration of 'std::list'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(14,13): error C3646: 'get_SubChapter': unknown override specifier
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(14,27): error C2059: syntax error: '('
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(14,36): error C2238: unexpected token(s) preceding ';'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(18,8): error C2065: 'SubChapter': undeclared identifier
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(18,2): error C2923: 'std::list': 'SubChapter' is not a valid template type argument for parameter '_Ty'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(18): message : see declaration of 'SubChapter'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(18,2): error C2976: 'std::list': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\list(754): message : see declaration of 'std::list'
+C:\Users\mihai\source\repos\MyBook\MyBook\MyBook.cpp(17,35): error C2660: 'Book::add_Author': function does not take 1 arguments
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(13,7): message : see declaration of 'Book::add_Author'
+C:\Users\mihai\source\repos\MyBook\MyBook\MyBook.cpp(19,33): error C2039: 'get_Chapter': is not a member of 'Book'
+C:\Users\mihai\source\repos\MyBook\MyBook\book.h(9): message : see declaration of 'Book'
+C:\Users\mihai\source\repos\MyBook\MyBook\MyBook.cpp(19,18): error C2512: 'Chapter': no appropriate default constructor available
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(9,7): message : see declaration of 'Chapter'
+C:\Users\mihai\source\repos\MyBook\MyBook\MyBook.cpp(21,30): error C2039: 'get_SubChapter': is not a member of 'Chapter'
+C:\Users\mihai\source\repos\MyBook\MyBook\chapter.h(9): message : see declaration of 'Chapter'
+C:\Users\mihai\source\repos\MyBook\MyBook\MyBook.cpp(21,24): error C2512: 'SubChapter': no appropriate default constructor available
+C:\Users\mihai\source\repos\MyBook\MyBook\subchapter.h(8,7): message : see declaration of 'SubChapter'
+  subchapter.cpp
+  Generating Code...
